@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bharani-portfolio/static/css/main.11c1b6b8.css",
+    "main.js": "/bharani-portfolio/static/js/main.547b9cb6.js",
+    "static/js/453.ad7768ec.chunk.js": "/bharani-portfolio/static/js/453.ad7768ec.chunk.js",
+    "static/media/pic-1.jpg": "/bharani-portfolio/static/media/pic-1.7ca610838be2aaa8eb86.jpg",
+    "static/media/Bharanidharan_resume_1.pdf": "/bharani-portfolio/static/media/Bharanidharan_resume_1.da805fa65cef5af22a31.pdf",
+    "index.html": "/bharani-portfolio/index.html",
+    "main.11c1b6b8.css.map": "/bharani-portfolio/static/css/main.11c1b6b8.css.map",
+    "main.547b9cb6.js.map": "/bharani-portfolio/static/js/main.547b9cb6.js.map",
+    "453.ad7768ec.chunk.js.map": "/bharani-portfolio/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11c1b6b8.css",
+    "static/js/main.547b9cb6.js"
+  ]
+}
