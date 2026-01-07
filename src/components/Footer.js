@@ -15,7 +15,7 @@ const Footer = () => {
                 <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', marginTop: '10px' }}>
                     <a href="https://github.com/07bharani" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', fontSize: '1.2rem' }}><i className="fab fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', fontSize: '1.2rem' }}><i className="fab fa-linkedin"></i></a>
-                    <a href="#" style={{ color: '#fff', fontSize: '1.2rem' }}><i className="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', fontSize: '1.2rem' }}><i className="fab fa-instagram"></i></a>
                 </div>
             </div>
         </footer>

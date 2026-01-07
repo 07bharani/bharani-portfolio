@@ -26,7 +26,7 @@ const Projects = () => {
     ];
 
     return (
-        <section id="projects" className="section-padding" style={{ background: '#0f0f0f' }}>
+        <section id="projects" className="section-padding" style={{ background: 'rgba(15, 15, 15, 0.85)', backdropFilter: 'blur(5px)' }}>
             <div className="container">
                 <h2 className="section-title" style={{
                     fontSize: '2.5rem',

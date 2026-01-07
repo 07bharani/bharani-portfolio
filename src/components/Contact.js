@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <section id="contact" className="section-padding" style={{ background: '#0f0f0f' }}>
+        <section id="contact" className="section-padding" style={{ background: 'rgba(15, 15, 15, 0.85)', backdropFilter: 'blur(5px)' }}>
             <div className="container">
                 <h2 className="section-title" style={{
                     fontSize: '2.5rem',

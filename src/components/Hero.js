@@ -43,7 +43,7 @@ const Hero = () => {
             alignItems: 'center',
             position: 'relative',
             paddingTop: '80px',
-            background: 'radial-gradient(circle at 50% 50%, rgba(220, 20, 60, 0.1) 0%, rgba(10, 10, 10, 1) 70%)'
+            background: 'radial-gradient(circle at 50% 50%, rgba(220, 20, 60, 0.15) 0%, transparent 70%)'
         }}>
             <div className="container">
                 <div style={{ maxWidth: '800px' }}>

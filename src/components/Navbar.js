@@ -24,18 +24,18 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-black/90 backdrop-blur-md py-4' : 'bg-transparent py-6'}`}
-         style={{
-           position: 'fixed',
-           width: '100%',
-           zIndex: 1000,
-           padding: scrolled ? '15px 0' : '25px 0',
-           background: scrolled ? 'rgba(10, 10, 10, 0.8)' : 'transparent',
-           backdropFilter: scrolled ? 'blur(10px)' : 'none',
-           borderBottom: scrolled ? '1px solid rgba(255,255,255,0.05)' : 'none',
-           transition: 'all 0.3s ease'
-         }}>
+      style={{
+        position: 'fixed',
+        width: '100%',
+        zIndex: 1000,
+        padding: scrolled ? '15px 0' : '25px 0',
+        background: scrolled ? 'rgba(10, 10, 10, 0.8)' : 'transparent',
+        backdropFilter: scrolled ? 'blur(10px)' : 'none',
+        borderBottom: scrolled ? '1px solid rgba(255,255,255,0.05)' : 'none',
+        transition: 'all 0.3s ease'
+      }}>
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <a href="#" style={{ fontSize: '1.5rem', fontWeight: '700', color: '#fff', display: 'flex', alignItems: 'center', gap: '5px' }}>
+        <a href="/" style={{ fontSize: '1.5rem', fontWeight: '700', color: '#fff', display: 'flex', alignItems: 'center', gap: '5px' }}>
           Bharani<span style={{ color: 'var(--accent-color)' }}>.</span>
         </a>
 
@@ -49,13 +49,13 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu Button - simplified for now, assuming responsive needs logic */}
-        <button 
+        <button
           onClick={() => setIsOpen(!isOpen)}
-          style={{ 
-            display: window.innerWidth <= 768 ? 'block' : 'none', 
-            background: 'none', 
-            border: 'none', 
-            color: '#fff', 
+          style={{
+            display: window.innerWidth <= 768 ? 'block' : 'none',
+            background: 'none',
+            border: 'none',
+            color: '#fff',
             fontSize: '1.5rem',
             cursor: 'pointer'
           }}
@@ -79,9 +79,9 @@ const Navbar = () => {
           borderBottom: '1px solid rgba(255,255,255,0.1)'
         }}>
           {navLinks.map((link) => (
-            <a 
-              key={link.name} 
-              href={link.href} 
+            <a
+              key={link.name}
+              href={link.href}
               onClick={() => setIsOpen(false)}
               style={{ color: '#fff', fontSize: '1.1rem', textAlign: 'center' }}
             >

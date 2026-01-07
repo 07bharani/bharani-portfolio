@@ -1,4 +1,5 @@
 import React from 'react';
+// Skills component displaying technical expertise
 
 const Skills = () => {
     const skillCategories = [
